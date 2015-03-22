@@ -74,7 +74,7 @@ combined <- merge(activity, combined)
 #      - Subject and activity description
 #      - All columns that have "mean()" in the name
 #      - All columns that have "std()" in the name
-#      - The last 6 columns that end with "gravityMean"
+#      - The last 6 columns.  All end with "gravityMean"
 ##########################################################################
 clean <- combined[ , c(2, 5, 46:51, 86:91, 126:131, 166:171, 206:207, 
                        219:220, 232:233, 245:246, 258:259, 271:276, 350:355, 
