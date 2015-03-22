@@ -1,8 +1,10 @@
 #The Code Book
 
-1. subject	 					- Id for the 30 subjects that participated in the experiment
-2. activity 					- The 6 different activities : "WALKING", "WALKING_UPSTAIRS", 
-									"WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING""
+##Here is the list of all the variables (columns):
+
+1. subject                      - Id for the 30 subjects that participated in the experiment
+2. activity                     - The 6 different activities : "WALKING", "WALKING_UPSTAIRS", 
+                                  "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING""
 3. tGravityAcc-mean()-X
 4. tGravityAcc-mean()-Y 
 5. tGravityAcc-mean()-Z 
