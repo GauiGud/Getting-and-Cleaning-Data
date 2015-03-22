@@ -2,6 +2,7 @@
 
 
 Here is a brief description of the steps I took in the run_analysis.R to clean the the data:  
+
 1. Get data that I used with the training data and the test data  
 2. Get the training data and rename the columns using the features file.  I then combined it with corresponding subject and activity_id for the training data  
 3. Get the test data and did the same as with the training data  
