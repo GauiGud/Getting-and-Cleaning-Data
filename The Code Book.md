@@ -1,71 +1,72 @@
+#The Code Book
 
+1. subject	 					- Id for the 30 subjects that participated in the experiment
+2. activity 					- The 6 different activities : "WALKING", "WALKING_UPSTAIRS", 
+									"WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING""
+3. tGravityAcc-mean()-X
+4. tGravityAcc-mean()-Y 
+5. tGravityAcc-mean()-Z 
 
-subject 					- Id for the 30 subjects that participated in the experiment
-activity 					- The 6 different activities : "WALKING", "WALKING_UPSTAIRS", 
-                              "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING""
-tGravityAcc-mean()-X 
-tGravityAcc-mean()-Y 
-tGravityAcc-mean()-Z 
-tGravityAcc-std()-X 
-tGravityAcc-std()-Y 
-tGravityAcc-std()-Z 
-tBodyAccJerk-mean()-X 
-tBodyAccJerk-mean()-Y 
-tBodyAccJerk-mean()-Z 
-tBodyAccJerk-std()-X 
-tBodyAccJerk-std()-Y 
-tBodyAccJerk-std()-Z 
-tBodyGyro-mean()-X 
-tBodyGyro-mean()-Y 
-tBodyGyro-mean()-Z 
-tBodyGyro-std()-X 
-tBodyGyro-std()-Y 
-tBodyGyro-std()-Z 
-tBodyGyroJerk-mean()-X 
-tBodyGyroJerk-mean()-Y 
-tBodyGyroJerk-mean()-Z 
-tBodyGyroJerk-std()-X 
-tBodyGyroJerk-std()-Y 
-tBodyGyroJerk-std()-Z 
-tBodyAccMag-mean() 
-tBodyAccMag-std() 
-tGravityAccMag-mean() 
-tGravityAccMag-std() 
-tBodyAccJerkMag-mean() 
-tBodyAccJerkMag-std() 
-tBodyGyroMag-mean() 
-tBodyGyroMag-std() 
-tBodyGyroJerkMag-mean() 
-tBodyGyroJerkMag-std() 
-fBodyAcc-mean()-X 
-fBodyAcc-mean()-Y 
-fBodyAcc-mean()-Z 
-fBodyAcc-std()-X 
-fBodyAcc-std()-Y 
-fBodyAcc-std()-Z 
-fBodyAccJerk-mean()-X 
-fBodyAccJerk-mean()-Y 
-fBodyAccJerk-mean()-Z 
-fBodyAccJerk-std()-X 
-fBodyAccJerk-std()-Y 
-fBodyAccJerk-std()-Z 
-fBodyGyro-mean()-X 
-fBodyGyro-mean()-Y 
-fBodyGyro-mean()-Z 
-fBodyGyro-std()-X 
-fBodyGyro-std()-Y 
-fBodyGyro-std()-Z 
-fBodyAccMag-mean() 
-fBodyAccMag-std() 
-fBodyBodyAccJerkMag-mean() 
-fBodyBodyAccJerkMag-std() 
-fBodyBodyGyroMag-mean() 
-fBodyBodyGyroMag-std() 
-fBodyBodyGyroJerkMag-mean() 
-fBodyBodyGyroJerkMag-std() 
-angle(tBodyAccJerkMean),gravityMean) 
-angle(tBodyGyroMean,gravityMean) 
-angle(tBodyGyroJerkMean,gravityMean) 
-angle(X,gravityMean) 
-angle(Y,gravityMean) 
-angle(Z,gravityMean)
+6. tGravityAcc-std()-X 
+7. tGravityAcc-std()-Y 
+8. tGravityAcc-std()-Z 
+9. tBodyAccJerk-mean()-X 
+10. tBodyAccJerk-mean()-Y 
+11. tBodyAccJerk-mean()-Z 
+12. tBodyAccJerk-std()-X 
+13. tBodyAccJerk-std()-Y 
+14. tBodyAccJerk-std()-Z 
+15. tBodyGyro-mean()-X 
+16. tBodyGyro-mean()-Y 
+17. tBodyGyro-mean()-Z 
+18. tBodyGyro-std()-X 
+19. tBodyGyro-std()-Y 
+20. tBodyGyro-std()-Z 
+21. tBodyGyroJerk-mean()-X 
+22. tBodyGyroJerk-mean()-Y 
+23. tBodyGyroJerk-mean()-Z 
+24. tBodyGyroJerk-std()-X 
+25. tBodyGyroJerk-std()-Y 
+26. tBodyGyroJerk-std()-Z 
+27. tBodyAccMag-mean() 
+28. tBodyAccMag-std() 
+29. tGravityAccMag-mean() 
+30. tGravityAccMag-std() 
+31. tBodyAccJerkMag-mean() 
+32. tBodyAccJerkMag-std() 
+33. tBodyGyroMag-mean() 
+34. tBodyGyroMag-std() 
+35. tBodyGyroJerkMag-mean() 
+36. tBodyGyroJerkMag-std() 
+37. fBodyAcc-mean()-X 
+38. fBodyAcc-mean()-Y 
+39. fBodyAcc-mean()-Z 
+40. fBodyAcc-std()-X 
+41. fBodyAcc-std()-Y 
+42. fBodyAcc-std()-Z 
+43. fBodyAccJerk-mean()-X 
+44. fBodyAccJerk-mean()-Y 
+45. fBodyAccJerk-mean()-Z 
+46. fBodyAccJerk-std()-X 
+47. fBodyAccJerk-std()-Y 
+48. fBodyAccJerk-std()-Z 
+49. fBodyGyro-mean()-X 
+50. fBodyGyro-mean()-Y 
+51. fBodyGyro-mean()-Z 
+52. fBodyGyro-std()-X 
+53. fBodyGyro-std()-Y 
+54. fBodyGyro-std()-Z 
+55. fBodyAccMag-mean() 
+56. fBodyAccMag-std() 
+57. fBodyBodyAccJerkMag-mean() 
+58. fBodyBodyAccJerkMag-std() 
+59. fBodyBodyGyroMag-mean() 
+60. fBodyBodyGyroMag-std() 
+61. fBodyBodyGyroJerkMag-mean() 
+62. fBodyBodyGyroJerkMag-std() 
+63. angle(tBodyAccJerkMean),gravityMean) 
+64. angle(tBodyGyroMean,gravityMean) 
+65. angle(tBodyGyroJerkMean,gravityMean) 
+66. angle(X,gravityMean) 
+67. angle(Y,gravityMean) 
+68. angle(Z,gravityMean)
