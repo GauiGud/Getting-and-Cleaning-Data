@@ -3,6 +3,10 @@
 ####################################################################
 setwd("H:/My Documents/Coursera/03 Getting and Cleaning Data/UCI HAR Dataset")
 
+
+####################################################################
+# Read features and activity that will be used for both training and test
+####################################################################
 # Read the 561 features
 features = read.table("./features.txt", header = FALSE, sep = "")
 
@@ -14,7 +18,6 @@ names(activity) <- c("activity_id", "activity")
 ####################################################################
 # Training set
 ####################################################################
-
 # Read the subject that are in the training set and name the columns
 subject_train = read.table("./train/subject_train.txt", header = FALSE, sep = "")
 names(subject_train) <- "subject"
@@ -27,7 +30,7 @@ names(activity_train) <- "activity_id"
 X_train = read.table("./train/x_train.txt", header = FALSE, sep = "")
 names(X_train) <- features[ , 2]
 
-# create id for each row
+# create id for each row and mark it as Train
 id <- c(1:nrow(X_train))
 TestTrain <- rep("Train", nrow(X_train))
 
@@ -38,7 +41,6 @@ train_clean <- cbind(TestTrain, id, subject_train, activity_train, X_train)
 ####################################################################
 # Test set
 ####################################################################
-
 # Read the subjects that are in the test set and name the columns
 subject_test = read.table("./test/subject_test.txt", header = FALSE, sep = "")
 names(subject_test) <- "subject"
@@ -51,7 +53,7 @@ names(activity_test) <- "activity_id"
 X_test = read.table("./test/x_test.txt", header = FALSE, sep = "")
 names(X_test) <- features[ , 2]
 
-# create id for each row
+# create id for each row and mark it as Test
 id <- c(1:nrow(X_test))
 TestTrain <- rep("Test", nrow(X_test))
 
