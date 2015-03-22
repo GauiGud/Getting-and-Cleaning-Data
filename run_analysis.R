@@ -84,6 +84,7 @@ clean <- combined[ , c(2, 5, 46:51, 86:91, 126:131, 166:171, 206:207,
 ###############################################################################
 # Group the data by subject and activity and calculate the mean for each column
 ###############################################################################
+library(dplyr)
 clean_mean <- group_by(clean, subject, activity)
 clean_mean <-  summarise_each(clean_mean, funs(mean))
 
@@ -91,4 +92,4 @@ clean_mean <-  summarise_each(clean_mean, funs(mean))
 ###############################################################################
 # Write the resulting data.frame to a file called CleanMean.txt
 ###############################################################################
-write.table(clean_mean, file = "./CleanMean.txt", sep = " ", col.names = TRUE,  row.name=FALSE)
+write.table(clean_mean, file = "./CleanMean.txt",  row.name=FALSE)
