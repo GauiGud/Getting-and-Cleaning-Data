@@ -1,11 +1,11 @@
 #The Code Book
 
 
-##Here is the list of all the variables (columns):
+##Here is the list of all the variables (columns).  The values for variables 3 to 68 range from -1.0 to 1.0.
 
-1. subject - IDs for the 30 subjects that participated in the experiment
+1. subject - IDs for the 30 subjects that participated in the experiment, ranging from 1 to 30
 2. activity - The 6 different activities : "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING"
-3. tGravityAcc-mean()-X         - Mean of tGravityAcc-mean()-X
+3. tGravityAcc-mean()-X         - Mean of tGravityAcc-mean()-X 
 4. tGravityAcc-mean()-Y         - Mean of tGravityAcc-mean()-Y
 5. tGravityAcc-mean()-Z         - Mean of tGravityAcc-mean()-Z
 6. tGravityAcc-std()-X          - Mean of tGravityAcc-std()-X
