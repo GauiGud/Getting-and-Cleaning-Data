@@ -5,13 +5,13 @@
 1. subject                      - Id for the 30 subjects that participated in the experiment
 2. activity                     - The 6 different activities : "WALKING", "WALKING_UPSTAIRS", 
                                   "WALKING_DOWNSTAIRS", "SITTING", "STANDING" and "LAYING""
-3. tGravityAcc-mean()-X  
-4. tGravityAcc-mean()-Y  
-5. tGravityAcc-mean()-Z  
-6. tGravityAcc-std()-X  
-7. tGravityAcc-std()-Y  
-8. tGravityAcc-std()-Z  
-9. tBodyAccJerk-mean()-X 
+3. tGravityAcc-mean()-X         - Mean of tGravityAcc-mean()-X
+4. tGravityAcc-mean()-Y         - Mean of tGravityAcc-mean()-Y
+5. tGravityAcc-mean()-Z         - Mean of tGravityAcc-mean()-Z
+6. tGravityAcc-std()-X          - Mean of tGravityAcc-std()-X
+7. tGravityAcc-std()-Y          - Mean of tGravityAcc-std()-Y 
+8. tGravityAcc-std()-Z          - Mean of tGravityAcc-std()-Z
+9. tBodyAccJerk-mean()-X        - Mean of tBodyAccJerk-mean()-X
 10. tBodyAccJerk-mean()-Y 
 11. tBodyAccJerk-mean()-Z 
 12. tBodyAccJerk-std()-X 
