@@ -1,5 +1,6 @@
 #The Code Book
 
+
 ##Here is the list of all the variables (columns):
 
 1. subject                      - Id for the 30 subjects that participated in the experiment
@@ -12,22 +13,22 @@
 7. tGravityAcc-std()-Y          - Mean of tGravityAcc-std()-Y 
 8. tGravityAcc-std()-Z          - Mean of tGravityAcc-std()-Z
 9. tBodyAccJerk-mean()-X        - Mean of tBodyAccJerk-mean()-X
-10. tBodyAccJerk-mean()-Y 
-11. tBodyAccJerk-mean()-Z 
-12. tBodyAccJerk-std()-X 
-13. tBodyAccJerk-std()-Y 
-14. tBodyAccJerk-std()-Z 
-15. tBodyGyro-mean()-X 
-16. tBodyGyro-mean()-Y 
-17. tBodyGyro-mean()-Z 
-18. tBodyGyro-std()-X 
-19. tBodyGyro-std()-Y 
-20. tBodyGyro-std()-Z 
-21. tBodyGyroJerk-mean()-X 
-22. tBodyGyroJerk-mean()-Y 
-23. tBodyGyroJerk-mean()-Z 
-24. tBodyGyroJerk-std()-X 
-25. tBodyGyroJerk-std()-Y 
+10. tBodyAccJerk-mean()-Y - Mean of tBodyAccJerk-mean()-Y 
+11. tBodyAccJerk-mean()-Z - Mean of tBodyAccJerk-mean()-Z 
+12. tBodyAccJerk-std()-X - Mean of tBodyAccJerk-std()-X 
+13. tBodyAccJerk-std()-Y - Mean of tBodyAccJerk-std()-Y
+14. tBodyAccJerk-std()-Z - Mean of tBodyAccJerk-std()-Z
+15. tBodyGyro-mean()-X - Mean of tBodyGyro-mean()-X
+16. tBodyGyro-mean()-Y - Mean of tBodyGyro-mean()-Y 
+17. tBodyGyro-mean()-Z - Mean of tBodyGyro-mean()-Z
+18. tBodyGyro-std()-X - Mean of tBodyGyro-std()-X
+19. tBodyGyro-std()-Y - Mean of tBodyGyro-std()-Y
+20. tBodyGyro-std()-Z - Mean of tBodyGyro-std()-Z
+21. tBodyGyroJerk-mean()-X - Mean of tBodyGyroJerk-mean()-X
+22. tBodyGyroJerk-mean()-Y - Mean of  tBodyGyroJerk-mean()-Y
+23. tBodyGyroJerk-mean()-Z - Mean of tBodyGyroJerk-mean()-Z
+24. tBodyGyroJerk-std()-X - Mean of tBodyGyroJerk-std()-X 
+25. tBodyGyroJerk-std()-Y - Mean of tBodyGyroJerk-std()-Y
 26. tBodyGyroJerk-std()-Z 
 27. tBodyAccMag-mean() 
 28. tBodyAccMag-std() 
